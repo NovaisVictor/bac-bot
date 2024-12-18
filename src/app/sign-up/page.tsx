@@ -1,11 +1,9 @@
-import { PixInfinit } from '@/components/pix-infinit'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 export default function SignUp() {
   return (
     <div className="h-screen flex flex-col p-8 gap-12">
-      <PixInfinit />
       <div className="text-center">
         <h1 className="text-xl font-bold">
           Registre-se na <span className="text-primary">Sorte na Bet:</span>
