@@ -11,7 +11,7 @@ export function Header() {
       <header
         className={cn(
           'flex justify-between items-center mb-10 py-6',
-          pathName === '/aviator' && 'hidden',
+          pathName === '/bac-boo' && 'hidden',
         )}
       >
         <div className="flex gap-4 items-center text-lg font-semibold">

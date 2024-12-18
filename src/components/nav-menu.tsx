@@ -1,6 +1,6 @@
 'use client'
 import { cn } from '@/lib/utils'
-import { HomeIcon, Plane, Play, Video } from 'lucide-react'
+import { Dice6, HomeIcon, Play, Video } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -36,16 +36,16 @@ export function NavMenu() {
         </div>
         <div className="flex flex-col items-center justify-center space-y-0">
           <Link
-            href={'/aviator'}
+            href={'/bac-boo'}
             className={cn(
               'p-2 rounded-md',
-              pathName === '/aviator' &&
+              pathName === '/bac-boo' &&
                 'bg-primary -translate-y-3.5 transition-all',
             )}
           >
-            <Plane className="size-8 tex" />
+            <Dice6 className="size-8 tex" />
           </Link>
-          <p>Aviator</p>
+          <p>Bac Boo</p>
         </div>
         <div className="flex flex-col items-center justify-center space-y-0">
           <Link
